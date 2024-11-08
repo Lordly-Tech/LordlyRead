@@ -126,7 +126,13 @@ export function fetch(rawUrl: string, options?: any): Promise<Response> {
         },
         fail(err) {
           console.log(err)
-          reject(err)
+          if ((fullOptions.retry ?? 0) > 0) {
+            fetch(url, {...fullOptions, retry: fullOptions.retry - 1})
+              .then(resolve)
+              .catch(reject)
+          } else {
+            reject(err)
+          }
         }
       })
     }
