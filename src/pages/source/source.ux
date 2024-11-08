@@ -88,7 +88,7 @@
         <div class="col">
           <div class="card {{ activedInput==='sourceUrl' ? 'active' : 'inactive'}}" @click="activeInput('sourceUrl')">
             <text class="card-btn-text">
-              {{ sourceUrl === "" ? "请输入链接/9位传输码" : sourceUrl }}
+              {{ sourceUrl === "" ? "请输入9位传输码/源仓库id" : sourceUrl }}
             </text>
           </div>
           <div class="card justify-center" @click="submitUrl">
@@ -260,16 +260,17 @@ export default {
     this.importing = true
     this.toast("正在导入，请稍候")
     let url
-    if (this.sourceUrl.startsWith("http://") || this.sourceUrl.startsWith("https://")) {
-      url = this.sourceUrl
+    if (!isNaN(parseFloat(this.sourceUrl)) && isFinite(this.sourceUrl)) {
+      url = `https://www.yckceo.com/yuedu/shuyuan/json/id/${this.sourceUrl}.json`
     } else if (this.sourceUrl.length === 9) {
       url = `https://t.doruo.cn/${this.sourceUrl}`
     } else {
-      this.toast("请输入正确的链接/9位传输码")
+      this.toast("请输入正确的9位传输码/源仓库id")
       return
     }
 
     fetch(url)
+    fetch(url,{retry:100})
       .then((res) => {
         if (typeof res.data === "string") {
           try {
