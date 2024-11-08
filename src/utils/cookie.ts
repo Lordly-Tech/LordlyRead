@@ -49,7 +49,7 @@ export class Cookie {
   getCookieFromHeader(header: string) {
     const value = new Map()
     header.split(";")?.forEach((item) => {
-      value.set(item.split("=")[0].trim(), item.split("=")[1].trim())
+      value.set(item.split("=")[0]?.trim(), item.split("=")[1]?.trim())
     })
     return value
   }
