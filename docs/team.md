@@ -2,7 +2,7 @@
 layout: home
 hero:
   name: 团队成员
-  tagline: 薪火笔记社
+  tagline: Lordly Team & Contributors
 ---
 
 <script setup>
