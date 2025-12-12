@@ -60,8 +60,8 @@ Lordly·阅读
 
 ### 仓库地址
 
-Github：http://github.com/Lordly-Tech/LordlyRead
-Gitcode：https://gitcode.com/Lordly-Tech/LordlyRead
+- Github：http://github.com/Lordly-Tech/LordlyRead
+- Gitcode：https://gitcode.com/Lordly-Tech/LordlyRead
 
 ### QQ 交流群（扫描或点击下方二维码快捷加入）
 

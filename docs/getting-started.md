@@ -26,5 +26,5 @@ Lordly·阅读为免费应用，其余一切收费或附带广告皆为盗版！
 
 ## 仓库地址
 
-Github：http://github.com/Lordly-Tech/LordlyRead
-Gitcode：https://gitcode.com/Lordly-Tech/LordlyRead
+- Github：http://github.com/Lordly-Tech/LordlyRead
+- Gitcode：https://gitcode.com/Lordly-Tech/LordlyRead
