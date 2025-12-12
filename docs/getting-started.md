@@ -23,3 +23,8 @@ Lordly·阅读为免费应用，其余一切收费或附带广告皆为盗版！
 
 - [GitHub](https://github.com/Lordly-Tech/LordlyRead/releases)
 - More coming soon...
+
+## 仓库地址
+
+Github：http://github.com/Lordly-Tech/LordlyRead
+Gitcode：https://gitcode.com/Lordly-Tech/LordlyRead

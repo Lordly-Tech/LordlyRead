@@ -58,6 +58,11 @@ Lordly·阅读
 
 ## 联系我们
 
+### 仓库地址
+
+Github：http://github.com/Lordly-Tech/LordlyRead
+Gitcode：https://gitcode.com/Lordly-Tech/LordlyRead
+
 ### QQ 交流群（扫描或点击下方二维码快捷加入）
 
 [![QQ 群二维码](/public/qq_qr.png)](https://qm.qq.com/q/s94RXV7eHC)
