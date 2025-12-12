@@ -5,7 +5,7 @@
 
 Lordly·阅读
 <br>
-<a href="https://read.lordly.vip/" target="_blank">read.lordly.vip</a>
+<a href="https://lordlyread.jwyihao.top/" target="_blank">lordlyread.jwyihao.top/</a>
 <br>
 支持「开源阅读」规则的手环在线阅读工具
 </div>
@@ -61,7 +61,7 @@ Lordly·阅读
 ### 仓库地址
 
 - Github：http://github.com/Lordly-Tech/LordlyRead
-- Gitcode：https://gitcode.com/Lordly-Tech/LordlyRead
+- AtomGit：https://atomgit.com/Lordly-Tech/LordlyRead
 
 ### QQ 交流群（扫描或点击下方二维码快捷加入）
 
