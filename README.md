@@ -10,6 +10,8 @@ Lordly·阅读
 支持「开源阅读」规则的手环在线阅读工具
 </div>
 
+![GitHub stars](https://img.shields.io/github/stars/Lordly-Tech/LordlyRead?style=social)
+![AtomGit G-Star stars](https://atomgit.com/Lordly-Tech/LordlyRead/star/badge.svg)
 [![GitHub License](https://img.shields.io/github/license/Lordly-Tech/LordlyRead)](https://github.com/Lordly-Tech/LordlyRead/blob/main/LICENSE)
 [![wakatime](https://wakatime.com/badge/user/7ef6dafe-00d7-45e3-b4c7-27b1f5d4d735/project/47bae092-8953-4da1-a089-e75e4ec13996.svg)](https://wakatime.com/badge/user/7ef6dafe-00d7-45e3-b4c7-27b1f5d4d735/project/47bae092-8953-4da1-a089-e75e4ec13996)
 [![GitHub Actions Workflow Status](https://img.shields.io/github/actions/workflow/status/Lordly-Tech/LordlyRead/.github%2Fworkflows%2Fdeploy.yml)](https://github.com/Lordly-Tech/LordlyRead/actions)
